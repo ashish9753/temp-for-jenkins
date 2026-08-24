@@ -1,0 +1,27 @@
+{
+  "name": "temp",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/ashish9753/temp-for-jenkins#readme",
+  "bugs": {
+    "url": "https://github.com/ashish9753/temp-for-jenkins/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashish9753/temp-for-jenkins.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev" : "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "nodemon": "^3.1.14"
+  },
+  "devDependencies": {}
+}
